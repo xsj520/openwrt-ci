@@ -13,3 +13,4 @@ sed -i 's/"终端"/"终端命令"/g' `grep "终端" -rl ./`
 sed -i 's/"HomeProxy"/"科学上网"/g' `grep "HomeProxy" -rl ./`
 sed -i 's/"接口"/"接口设置"/g' `grep "接口" -rl ./`
 sed -i 's/"无线"/"无线设置"/g' `grep "无线" -rl ./`
+sed -i 's/"UPnP IGD 和 PCP"/"U P N P"/g' `grep "UPnP IGD 和 PCP" -rl ./`
