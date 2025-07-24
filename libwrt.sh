@@ -9,12 +9,7 @@ sed -i 's/192.168.1.1/192.168.1.2/g' package/base-files/files/bin/config_generat
 # 修改插件名字
 sed -i 's/"带宽监控"/"监控"/g' `grep "带宽监控" -rl ./`
 sed -i 's/"网络存储"/"存储"/g' `grep "网络存储" -rl ./`
-sed -i 's/"iStore"/"商店"/g' `grep "iStore" -rl ./`
-sed -i 's/"Docker"/"容器"/g' `grep "Docker" -rl ./`
-sed -i 's/"存储卷"/"存储"/g' `grep "存储卷" -rl ./`
-sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' `grep "Turbo ACC 网络加速" -rl ./`
 sed -i 's/"TTYD 终端"/"终端命令"/g' `grep "TTYD 终端" -rl ./`
-sed -i 's/"上网时间控制"/"上网控制"/g' `grep "上网时间控制" -rl ./`
 sed -i 's/"启动项"/"启动项目"/g' `grep "启动项" -rl ./`
 sed -i 's/"挂载点"/"挂载地点"/g' `grep "挂载点" -rl ./`
 sed -i 's/"重启"/"重启开关"/g' `grep "重启" -rl ./`
